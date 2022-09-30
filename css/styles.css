@@ -1,0 +1,126 @@
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+*/
+
+body {
+    background-color: #E4D3A0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem auto 0 auto;
+    /*top right bottom left*/
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    /*1em = 1rem = 16px*/
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+}
+
+p {
+    margin-bottom: 0;
+    color: white;
+}
+
+
+/* this fix is for safari browsers on the mac */
+
+.row:before,
+.row:after {
+    display: none !important;
+}
+
+
+/* navigation-bar section begin */
+
+#navigation-bar {
+    background-color: #b0397b;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+
+/* navigation-bar section end */
+
+.carousel-container {
+    width: 100%;
+    height: 500px !important;
+}
+
+
+/* contact-section begin */
+
+#contact-section {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+
+/* contact-section end */
+
+
+/******** Separator Start ********/
+
+.full_separator {
+    clear: both;
+}
+
+
+/******** Separator End ********/
+
+.home_button {
+    text-align: right;
+    padding-top: 1%;
+}
+
+.big-brand {
+    word-wrap: break-word;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+/* this is triggered for browsers that have a width less than 980px */
+
+@media (max-width: 980px) {
+    #navigation-bar {
+        font-size: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .big-brand {
+        word-wrap: break-word;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .navbar-toggler-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .award_images {
+        width: 80%;
+        border: solid 8px black;
+    }
+}
