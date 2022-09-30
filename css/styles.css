@@ -51,12 +51,12 @@ p {
 
 /* navigation-bar section begin */
 
-#navigation-bar {
+.topnavbar {
     background-color: #b0397b;
 }
 
 .navbar-collapse {
-    text-align: right;
+    text-align: left;
 }
 
 
