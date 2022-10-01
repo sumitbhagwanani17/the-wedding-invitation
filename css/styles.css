@@ -94,6 +94,10 @@ image {
     font-size: 2rem;
 }
 
+.nav-item {
+    margin-left: auto;
+}
+
 
 /* navigation-bar section end */
 
